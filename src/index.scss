@@ -8,6 +8,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.gb-heading {
+  font-weight: bold;
+  font-family: "Oswald" !important;
+}
+
 .gb-footer {
   background-color: black;
   color: white;
@@ -15,4 +20,20 @@ body {
   .link-text {
     color: white;
   }
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-50 {
+  font-size: 50px;
+}
+
+.font-35 {
+  font-size: 35px;
 }

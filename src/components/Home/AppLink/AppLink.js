@@ -8,7 +8,7 @@ const AppLink = () => {
       <div className="row bg-success p-4 mb-4">
         <div className="col-7">
           <p
-            className="gb-heading font-35 text-black pl-5"
+            className="gb-heading font-35 text-black"
             style={{ paddingLeft: "380px" }}
           >
             in your hand

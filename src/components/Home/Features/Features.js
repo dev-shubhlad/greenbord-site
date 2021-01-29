@@ -10,7 +10,7 @@ const Features = () => {
       <Intro />
       <FeatureComponent />
       <div className="text-center">
-        <div className="gb-btn m-auto">Register Now</div>
+        <span className="gb-btn m-auto">Register Now</span>
       </div>
     </div>
   );

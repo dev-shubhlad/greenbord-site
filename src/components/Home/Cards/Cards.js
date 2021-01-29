@@ -15,7 +15,14 @@ const Cards = () => {
             While building infrastructure ecosystem for e-learning by becoming
             our <strong>Institute Partner</strong>{" "}
           </p>
-          <div className="btn btn-success w-100">Become Institute Partner</div>
+          <a
+            href="https://greenbord-institute-panel.herokuapp.com/login"
+            target="_black"
+          >
+            <div className="btn btn-success w-100">
+              Become Institute Partner
+            </div>
+          </a>
         </div>
         <div className="col-4 text-center pl-5 pr-5 pb-4">
           <img src={createMoney} height="120" />

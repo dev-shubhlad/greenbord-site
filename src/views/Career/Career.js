@@ -7,7 +7,12 @@ const Career = () => {
         <p className="m-0 gb-heading font-35 text-white">We are hiring</p>
         <p className="gb-heading font-35 text-white">Full Stack Devloper</p>
         <div className="text-center">
-          <span className="gb-btn m-auto">Apply Now</span>
+          <a
+            href="https://docs.google.com/forms/d/1IwVaRT82puP9O1MS8UqURjQg6m-BkmlmvUy7eeMXzX0/viewform?edit_requested=true"
+            target="_blank"
+          >
+            <span className="gb-btn m-auto">Apply Now</span>
+          </a>
         </div>
       </div>
 

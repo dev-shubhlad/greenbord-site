@@ -10,7 +10,12 @@ const Features = () => {
       <Intro />
       <FeatureComponent />
       <div className="text-center">
-        <span className="gb-btn m-auto">Register Now</span>
+        <a
+          href="https://greenbord-institute-panel.herokuapp.com/login"
+          target="_blank"
+        >
+          <span className="gb-btn m-auto">Register Now</span>
+        </a>
       </div>
     </div>
   );

@@ -28,14 +28,19 @@ const Navbar = () => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav nav-fill w-100 mr-auto">
               <li class="nav-item active">
-                <NavLink to="/" className="nav-link" activeClassName="selected">
+                <NavLink
+                  to="/"
+                  className="nav-link"
+                  exact
+                  activeClassName="selected-item"
+                >
                   HOME <span class="sr-only">(current)</span>
                 </NavLink>
               </li>
               <li class="nav-item">
                 <a
                   className="nav-link"
-                  href="https://google.com"
+                  href="https://greenbord-institute-panel.herokuapp.com/login"
                   target="_blank"
                 >
                   FOR INSTITUTE
@@ -44,7 +49,7 @@ const Navbar = () => {
               <li class="nav-item">
                 <a
                   className="nav-link"
-                  href="https://youtube.com"
+                  href="https://greenbord-instructor.herokuapp.com/login"
                   target="_blank"
                 >
                   FOR TEACHERS
@@ -54,7 +59,7 @@ const Navbar = () => {
                 <NavLink
                   to="/about-us"
                   className="nav-link"
-                  activeClassName="selected"
+                  activeClassName="selected-item"
                 >
                   ABOUT US
                 </NavLink>
@@ -63,7 +68,7 @@ const Navbar = () => {
                 <NavLink
                   to="/career"
                   className="nav-link"
-                  activeClassName="selected"
+                  activeClassName="selected-item"
                 >
                   CAREER
                 </NavLink>

@@ -1,9 +1,18 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Oswald", sans-serif;
+  font-family: "Spinnaker", sans-serif;
   font-weight: 400;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.gb-footer {
+  background-color: black;
+  color: white;
+
+  .link-text {
+    color: white;
+  }
 }
